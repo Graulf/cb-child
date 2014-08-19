@@ -1,0 +1,190 @@
+/*
+ Theme Name:   Boldr-Pro.1.5.0 (colburn)
+ Description:  Boldr Pro Child Theme
+ Author:       Johan Stenbeck
+ Template:     boldr-pro.1.5.0
+ Version:      1.5.0
+ Text Domain:  boldr-pro-child
+*/
+
+@import url("../boldr-pro.1.5.0/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+#header #social-media {
+margin-top:15px;
+}
+
+h1.page-title {
+padding: 0 0 10px;
+margin: 0 20px 20px;
+text-transform:none;
+}
+
+#footer .container .widget a:hover, #footer .container .widget a:focus {
+color:#B23384;
+}
+
+.blogpost-desc h3 {
+font-size:20px !important;
+}
+
+h3 {
+margin-bottom: 14px;
+}
+
+.flexslider {
+margin-bottom: 30px;
+}
+
+.partner-wrap img {
+width:170px;
+}
+
+#page-container .partner-thumb {
+width:200px !important;
+}
+
+.postmetadata .meta-date,
+.postmetadata .meta-author { display: none !important; }
+
+.postmetadata {
+width:85px;	
+}
+
+#page-container .post-category {
+display:none;	
+}
+
+#footer .container>ul.one-fourth, #footer .container>ul.one-third, #footer .container>ul>li, #page-container>* {
+	margin-bottom:20px;
+}
+
+li.menu-item.menu-item-type-post_type.menu-item-object-page.menu-item-279 {
+/*display:none !important;	*/
+}
+
+#page-container h3 {	
+	font-size:24px;
+}
+
+.feature-block h3 {
+font-size:20px !important; 	
+/*background:#222222;
+color:#FFF;*/
+color:#000;
+text-align:center;
+text-transform:uppercase;
+letter-spacing:1px;
+border-bottom:6px solid #707070;
+}
+
+#header-right h2 {
+font-size:22px !important;
+font-style:italic;
+font-weight:600;
+margin:30px 0 0 0;
+line-height:17px;
+}
+
+.button-big {
+text-transform:none;
+margin-left:0px !important;	
+}
+
+.lang-item {
+    display: inline;
+margin:10px 20px;
+float:right;
+}
+
+#langC {
+padding: 5px 0 0 0;
+width: 100%;
+text-align: right;
+z-index: 1000;
+}
+
+.blogpost-desc h3 {
+	line-height:23px !important;	
+}
+
+h3.entry-title {
+line-height:26px !important;	
+}
+
+.editlink {
+display:none !important;	
+}
+
+.post-contents {
+	margin-left:0px !important;	
+}
+
+.postmetadata {
+width:0px !important;
+margin-right:0px !important;	
+}
+ 
+.alert-box {
+background-position: 10px 12px !important;
+background-size: 30px 30px !important;
+}
+
+div.alert-box.info {
+	background-image: url(images/info.png);
+	background-color: #EEE !important;
+	border-color: #CCC !important;
+}
+
+.alert-box.info h3, .alert-box.info p {
+color:#333 !important;	
+}
+
+#mobileHighlight {
+display:none;	
+}
+
+@media only screen and (min-width: 740px) and (max-width: 960px) {
+	#header-right h2 {
+	font-size:16px !important;
+}
+
+#mobileHighlight {
+display:none;	
+}
+
+}
+
+@media only screen and (min-width: 0px) and (max-width: 739px) { 
+
+#header-right h2 {
+	display:none;
+}
+
+#slider-wrap {
+	display:none;	
+}
+
+.post-contents, .single-post .post-contents {
+	width:270px;
+	margin-left:10px !important;	
+}
+
+#mobileHighlight {
+display:block;
+}
+
+.cta {
+padding: 20px 20px 20px 20px;
+}
+
+#header {
+padding-bottom:0px;	
+}
+
+}
+
+
+
